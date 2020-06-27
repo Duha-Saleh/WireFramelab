@@ -39,7 +39,7 @@ main {
     height: 375px;
 }
 .yes div{
-    width: calc(1000px / 3);
+    width: calc(900px / 3);
     display: inline-block;
     margin-right: 26px;
 }
