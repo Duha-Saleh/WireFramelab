@@ -30,62 +30,53 @@ header a {
 }
 
 main {
-    width: 960px;
+    width: 1000px;
     margin: 30px auto;
 }
 
-.multi-col-3 {
-    margin: 30px 0;
+.yes {
+    margin: 30px auto;
     height: 375px;
 }
-.multi-col-3 div{
-    width: 300px; /* as @passatgt mentioned in the comment, for the older browsers fallback */
-    width: calc(900px / 3);
+.yes div{
+    width: calc(1000px / 3);
     display: inline-block;
     margin-right: 26px;
 }
 
-.multi-col-3 div:last-child {
+.yes div:last-child {
     margin-right: 0;
 }
 
-.multi-col-2 {
+.no {
     height: 400px;
 }
 
-.multi-col-2 img {
+.no img {
     width: calc(940px / 2);
     float: left;
 }
-.multi-col-2 div {
+.no div {
     width: calc(940px / 2);
     float: right;
 }
 
-.multi-col-2 div .call-to-action {
+.no div .calll {
     color: #ffffff;
     background-color: #000;
-    /* border-radius: 10px; */
     padding: 14px 60px;
     text-decoration: none;
     display: inline-block;
 }
 
-.multi-col-2 div .call-to-action:hover {
-    background-color: #393e46;
-    cursor: pointer;
-    -webkit-transition: background-color 0.35s ease-out;
-    -moz-transition: background-color 0.35s ease-out;
-    -o-transition: background-color 0.35s ease-out;
-    transition: background-color 0.35s ease-out;
-  }
 
-.multi-col-2 h3 {
+
+.no h3 {
     font-weight: 700;
     line-height: 30px;
 }
 
-.multi-col-2 p {
+.no p {
     font-style: oblique;
     line-height: 20px;
     height: 300px;
